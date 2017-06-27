@@ -51,10 +51,12 @@ class Paramiko_get(object):
 
 
 if __name__ == "__main__":
-    print ('This is main of module "hello.py"')
     if(len(sys.argv)!=6):
         print '''
-        Please privide 5 parameters for this command:
+        SCPAutoBackup is a tool of synchronizing the two computer path.
+        Can use for backup website;
+
+        Please privide 6 parameters for this command:
 
         host--SCP server IP or domain name
         username--SCP login user name
